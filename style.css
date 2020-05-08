@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* Pre-NAVBAR */
+
+.prenav{
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #316DC3;
+    align-items: center;
+    padding: 0px;
+   
+    
+    
+}
+
+
+.prenavlinks{
+    display: block;
+    display: flex;
+    list-style: none;
+    padding: 2px;
+
+
+
+
+
+}
+
+.prenavlinks li a {
+    text-decoration: none;
+}
+
+.prenavimg{
+    width: 18px;
+    margin: 6px 14px;
+    
+
+}
+
+
+.pretext{ 
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    letter-spacing: 1px;
+    font-family: open;
+    font-weight: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+.donors{ 
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+
+    margin: 14px;
+    align-content: space-around;
+  
+
+
+
+}
+
+.donors li{
+    
+    padding: 4px;
+}
+
+.donorbtn{
+    background-color: white;
+    color: darkgreen;
+  padding: 4px;
+    margin: 4px 4px;
+    text-decoration: none;
+    border: 1px solid darkgreen;
+    font-size: small;
+
+
+}
+
+
+
+
+/* HEADER */
+
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+ }
+ 
+
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    
+}
+
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar a{
+    text-decoration: none;
+}
+
+
+.logo img{
+    width: 220px;
+}
+
+
+
+.navitems{
+    color: black;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 30px ;
+    font-size: small;
+    font-weight: bold;
+    
+}
+
+
+
+.navitems:hover{
+    color: white;
+    background-color:  #316DC3;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+
+    
+}
+
+
+
+
+/* Section 1 */
+
+
+.section1{
+    margin-top: 5px;
+    width: 100%;
+}
+ .section1 img{
+     width: 100%;
+ }
+
+
+/* Section 2 */
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+
+
+}
+
+
+.news{
+    background-color: #316DC3;
+    color: white;
+    padding: 4px 1px 6px 1px;
+    text-align: center;
+    width: 90%;
+}
+
+
+.heading1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 70px;
+    font-weight: bold;
+
+}
+
+
+.introtext{
+
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+
+}
+
+.ductiontext{
+    font-family: 'Merriweather', serif;
+    color: #427900 ;
+
+}
+
+.introimg{
+    width: 50px;
+}
+
+.details{
+    font-size: 14px;
+    width: 80%;
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #666666;
+}
+
+
+
+
+
+/* Section 3 */
+
+
+
+#section3{
+    display: flex;
+    margin-top: 100px;
+    color: #ffff;
+    background-color: #2755e9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.containers{
+    padding: 70px;
+    width: 500px;
+    font-size: xx-large;
+}
+
+.monthly{
+    font-family:'Merriweather',serif;
+    color: rgb(0, 255, 0);
+}
+
+
+.img2{
+    width: 50px;
+}
+
+
+.bigtext{
+    font-family:'Merriweather',serif;
+    font-weight: normal;
+
+}
+
+.smalltext{
+    font-family:'Merriweather',serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+/* Section 4 */
+
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+.box{
+    padding: 30px;   
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+
+.boximg{
+    width: 85px;
+}
+
+.boxtext{
+    font-family:'Merriweather',serif;
+    color:  #316DC3;
+}
+
+
+
+
+
+/* Section 5 */
+
+
+
+#section5{
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 40px auto 2px auto;
+    
+    
+}
+
+
+.smallboxes{
+    display: flex;
+   
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.left{
+    width: 60%;
+   
+    
+}
+
+
+.right{
+    width: 35%;
+    height: 80%;
+    
+    
+}
+
+.smallbox{
+   
+    text-align: center;
+    
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    width: 35%;
+    height: 25%;
+}
+
+
+.smallboximg{
+    width: 40px;
+}
+
+
+
+
+.smallboxtext{
+    font-family:'Merriweather',serif;
+    color: #316DC3;
+    font-weight: bolder;
+}
+
+
+
+
+
+.heading2{
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-family:'Merriweather',serif;
+    color: #316DC3;
+}
+
+
+
+
+/* Section 6 */
+
+
+#section6{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.lastbox{
+    
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.lastboxes{
+    
+    text-align: center;
+
+}
+
+.lastimg{
+    width: 90%;
+    margin: 2px;
+}
+
+
+/* Section 7 */
+
+#section7{
+    background-color: #25272e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+
+
+.lasttext{
+    color: rgba(179, 179, 179, 0.9);
+    margin-bottom: 60px;
+    
+}
+
+/* STYLING FOOTER */
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: royalblue;
+    height: 40px;
+    padding-top: 10px;
+}
+
+
+
+/* STYLING GOTO TOP BUTTON */
+
+.gototop{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    opacity: 0.2;
+   
+}
+
+.gototop img{
+    width: 60px;
+}
+
+
+.gotobtn:hover{
+    filter: invert();
+    border-radius: 20px;
+
+}
